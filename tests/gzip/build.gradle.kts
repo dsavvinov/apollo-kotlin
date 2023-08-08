@@ -31,7 +31,3 @@ apollo {
     packageName.set("gzip")
   }
 }
-
-tasks.named("compileKotlinJvm").configure {
-  notCompatibleWithConfigurationCache("https://youtrack.jetbrains.com/issue/KT-60311/")
-}
